@@ -25,6 +25,7 @@ public class DemoServlet extends HttpServlet {
   @Override
   public void doGet(HttpServletRequest req, HttpServletResponse resp)
       throws IOException {
+    resp.setContentType("text/html");
     resp.getWriter().write("Hello...");
   }
 }
