@@ -10,7 +10,7 @@
         <!-- Define the ResourceConfig class -->
         <init-param>
             <param-name>jersey.config.server.provider.packages</param-name>
-            <param-value>com.easyshop</param-value>
+            <param-value>com.golaso</param-value>
         </init-param>
         <load-on-startup>1</load-on-startup>
     </servlet>
